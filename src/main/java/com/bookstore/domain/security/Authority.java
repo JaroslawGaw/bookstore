@@ -9,7 +9,3 @@ public class Authority implements GrantedAuthority {
         this.authority = authority;
     }
 
-    public String getAuthority() {
-        return null;
-    }
-}
