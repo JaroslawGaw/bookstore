@@ -27,5 +27,6 @@ public class HomeController {
 	public String newUser(Model model) {
 		model.addAttribute("classActiveNewUser", true);
 		return "myAccount";
+		
 	}
 }
